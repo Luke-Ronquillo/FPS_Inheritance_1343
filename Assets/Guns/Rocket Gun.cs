@@ -8,7 +8,7 @@ public class RocketGun : Gun
             return false;
 
         var b = Instantiate(bulletPrefab, gunBarrelEnd.transform.position, gunBarrelEnd.rotation);
-        b.GetComponent<Projectile>().Initialize(100, 50, 2, 1000, null); // version without special effect
+        b.GetComponent<Projectile>().Initialize(0, 50, 2, 0, null); // version without special effect
 
         anim.SetTrigger("shoot");
         elapsed = 0;

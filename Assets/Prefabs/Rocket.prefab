@@ -237,7 +237,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b74f649de21d6f440920e5bf1f07c041, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ProjectileRocket
-  prefabRocketExplosion: {fileID: 5092166715441978967, guid: 2a693e7fd4e389e4484714be47308f6b, type: 3}
+  prefabRocketExplosion: {fileID: 7782041031052631085, guid: e6465fad2002bea4889169cacdb176bc, type: 3}
 --- !u!1001 &1282681860355926533
 PrefabInstance:
   m_ObjectHideFlags: 0
