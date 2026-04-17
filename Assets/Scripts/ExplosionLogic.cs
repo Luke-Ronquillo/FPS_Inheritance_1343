@@ -9,7 +9,8 @@ public class ExplosionLogic : MonoBehaviour
         var target = other.gameObject.GetComponent<Damageable>();
         if (target != null)
         {
-            var direction = GetComponent<Rigidbody>().linearVelocity;
+            Vector3 direction = (other.transform.position - transform.position);
+            //var direction = GetComponent<Rigidbody>().linearVelocity;
             direction.Normalize();
 
             Debug.Log("hit enemy trigger");
